@@ -25,6 +25,7 @@ public class ReceiveLogsDirect {
 
 		if (args.length < 1) {
 			System.err.println("Usage: ReceiveLogsDirect [info] [warning] [error]");
+			System.exit(1);
 		}
 
 		for (String severity : args) {
